@@ -64,8 +64,6 @@ Faça uma calculadora básica, que recebe dois números e a operação entre ele
 
 Utilize o **switch** para armazenar a operação escolhida.
 
-*Observação: fiz a resolução deste exercício e do próximo em um arquivo HTML, para variar um pouco.*
-
 ### 09 - Cálculo de tarifas.
 
 Crie um programa que exibe o valor de uma tarifa dependendo da idade e tipo do usuário (estudante ou regular).
@@ -223,8 +221,6 @@ Crie um botão e uma `div`. Coloque algum conteúdo de texto na `div` e um botã
 O conteúdo da `div` deverá aparecer na tela somente quando o botão é clicado.
 
 A `div` deverá sair da tela quando a pessoa clicar fora da área da `div` ou em seu botão de fechar.
-
-*Observação*: fiz a resolução utilizando o elemento `dialog` ao invés de `div`. O `dialog` é um elemento HTML específico para este tipo de interação com modal.
 
 ### 38 - Accordion
 
