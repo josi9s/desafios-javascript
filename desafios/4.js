@@ -1,17 +1,15 @@
 let Rectangle = {
-  height: 2,
-  width: 2,
+  b: 4,
+  h: 2,
 };
 
 let Perimeter = () => {
-  let recPer = Rectangle.height * 2 + Rectangle.width * 2;
-  console.log("Perimeter: " + recPer);
+  return (Rectangle.b + Rectangle.h) * 2;
 };
 
 let Area = () => {
-  let recArea = Rectangle.height * Rectangle.width;
-  console.log("Area: " + recArea);
+  return Rectangle.b * Rectangle.h;
 };
 
-Perimeter();
-Area();
+console.log("Perimeter: ", Perimeter());
+console.log("Area: ", Area());

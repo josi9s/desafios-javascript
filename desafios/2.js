@@ -1,5 +1,8 @@
-let height = 5;
 let weight = 100;
-let imc = weight / height ** 2;
+let height = 5;
 
-console.log(`IMC: ${imc}`);
+let Conversor = () => {
+  return weight / height ** 2;
+};
+
+console.log("IMC: ", Conversor());

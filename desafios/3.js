@@ -4,4 +4,6 @@ let Person = {
   city: "Caruaru",
 };
 
-console.log(`Name: ${Person.name}. Age: ${Person.age}. City: ${Person.city}`);
+console.log("Name: ", Person.name);
+console.log("Age: ", Person.age);
+console.log("City: ", Person.city);
